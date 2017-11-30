@@ -7,4 +7,5 @@ def rhs(a,b):
 l = lhs(2,3)
 r = rhs(2,3)
 
-print(l,"\n",r)
+print("The LHS is: {0:.2f}".format(l))
+print("The RHS is: {0:.2f}".format(r))
